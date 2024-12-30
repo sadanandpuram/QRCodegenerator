@@ -1,0 +1,40 @@
+.main {
+  max-width: 600px;
+  margin: 50px auto 0 auto;
+  min-width: 300px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, 0.25);
+}
+
+input[type='url'] {
+  width: 70%;
+}
+
+input[type='submit'],
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(90, 183, 90);
+  border: none;
+  margin: 10px 0;
+}
+.btn{
+    text-decoration: none;
+}
+input[type='submit']:hover,
+.btn:hover {
+  opacity: 90%;
+}
+
+footer {
+  text-align: center;
+}
+
+.qr {
+  color: tomato;
+}
